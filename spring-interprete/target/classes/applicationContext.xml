@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+	<bean id ="interpreteEspanol" class="beans.InterpreteEspanol"/>
+	<bean id ="interpreteIngles" class="beans.InterpreteIngles" />
+	
+	<bean id="traductorEspanol" class="beans.Traductor" >
+		<property name="interprete" ref="interpreteEspanol" />
+		<property name="nombre" value="Traductor en español" />
+	</bean>
+	
+	<bean id ="traductorIngles" class="beans.Traductor" >
+		<property name="interprete" ref="interpreteIngles" />
+		<property name="nombre" value ="Soy traductor en ingles" />
+	</bean>
+	
+</beans>
