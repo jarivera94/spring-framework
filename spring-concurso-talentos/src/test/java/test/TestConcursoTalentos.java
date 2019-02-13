@@ -15,6 +15,7 @@ import concursantes.Malabarista;
 public class TestConcursoTalentos {
 	private static ApplicationContext ctx;
 	public IConcursante malabarista;
+	public IConcursante malabarista2;
 	
 	private static Log logger = LogFactory.getLog("TestConcursoTalentos"); 
 	
@@ -22,14 +23,20 @@ public class TestConcursoTalentos {
 	public void before() {
 		ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		malabarista = (IConcursante) ctx.getBean("solei");
+		malabarista2 = (IConcursante) ctx.getBean("soleiRecitador");
 	}
 	
 	@Test
 	public void test() {
 		logger.info("Inicia el proceso");
-		int pelotas =5;
+		int pelotas =50;
 		malabarista.ejecutar();
+		logger.info("Ejecucion malabarista uno");
+		malabarista2.ejecutar();
+		logger.info("Ejecucion malabarista dos");
 		assertEquals(pelotas, ((Malabarista)malabarista).getPelotas());
+		logger.info("Validacion numero de pelotas");
+		assertEquals(100, ((Malabarista)malabarista2).getPelotas());
 		logger.info("Fin de la ejecucion");
 	}
 

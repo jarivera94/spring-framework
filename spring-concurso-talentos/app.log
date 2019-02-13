@@ -6,3 +6,27 @@
 2019-02-13 12:55:52,376 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
 2019-02-13 14:57:55,994 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 1 bean definitions from class path resource [applicationContext.xml] 
 2019-02-13 14:57:56,056 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-13 15:15:14,891 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 3 bean definitions from class path resource [applicationContext.xml] 
+2019-02-13 15:15:14,923 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-13 15:15:14,959 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'sonetoSorJuana' 
+2019-02-13 15:15:14,959 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'soleiRecitador' 
+2019-02-13 15:15:14,975 INFO TestConcursoTalentos [main] Inicia el proceso 
+2019-02-13 15:15:14,975 INFO TestConcursoTalentos [main] Ejecucion malabarista uno 
+2019-02-13 15:15:14,976 INFO TestConcursoTalentos [main] Ejecucion malabarista dos 
+2019-02-13 15:15:46,489 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 3 bean definitions from class path resource [applicationContext.xml] 
+2019-02-13 15:15:46,523 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-13 15:15:46,564 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'sonetoSorJuana' 
+2019-02-13 15:15:46,565 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'soleiRecitador' 
+2019-02-13 15:15:46,587 INFO TestConcursoTalentos [main] Inicia el proceso 
+2019-02-13 15:15:46,587 INFO TestConcursoTalentos [main] Ejecucion malabarista uno 
+2019-02-13 15:15:46,587 INFO TestConcursoTalentos [main] Ejecucion malabarista dos 
+2019-02-13 15:15:46,588 INFO TestConcursoTalentos [main] Validacion numero de pelotas 
+2019-02-13 15:16:03,570 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 3 bean definitions from class path resource [applicationContext.xml] 
+2019-02-13 15:16:03,607 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-13 15:16:03,646 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'sonetoSorJuana' 
+2019-02-13 15:16:03,647 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'soleiRecitador' 
+2019-02-13 15:16:03,667 INFO TestConcursoTalentos [main] Inicia el proceso 
+2019-02-13 15:16:03,667 INFO TestConcursoTalentos [main] Ejecucion malabarista uno 
+2019-02-13 15:16:03,667 INFO TestConcursoTalentos [main] Ejecucion malabarista dos 
+2019-02-13 15:16:03,668 INFO TestConcursoTalentos [main] Validacion numero de pelotas 
+2019-02-13 15:16:03,668 INFO TestConcursoTalentos [main] Fin de la ejecucion 

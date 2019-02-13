@@ -7,4 +7,12 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 	<bean id="solei" class="concursantes.Malabarista">
 		<constructor-arg value="50"></constructor-arg>
 	</bean>
+	
+	<bean id="sonetoSorJuana" class="concursantes.Soneto">
+	</bean>
+	
+	<bean id="soleiRecitador" class="concursantes.MalabaristaRecitador">
+		<constructor-arg value ="100"></constructor-arg>
+		<constructor-arg ref="sonetoSorJuana"></constructor-arg>
+	</bean>
 </beans>

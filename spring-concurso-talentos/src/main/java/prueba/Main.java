@@ -14,5 +14,7 @@ public class Main {
 		ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		IConcursante malabarista = (IConcursante) ctx.getBean("solei");
 		malabarista.ejecutar();
+		
+		
 	}
 }
