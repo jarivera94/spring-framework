@@ -30,3 +30,29 @@
 2019-02-13 15:16:03,667 INFO TestConcursoTalentos [main] Ejecucion malabarista dos 
 2019-02-13 15:16:03,668 INFO TestConcursoTalentos [main] Validacion numero de pelotas 
 2019-02-13 15:16:03,668 INFO TestConcursoTalentos [main] Fin de la ejecucion 
+2019-02-13 15:34:28,476 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 6 bean definitions from class path resource [applicationContext.xml] 
+2019-02-13 15:34:28,512 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-13 15:34:28,547 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'sonetoSorJuana' 
+2019-02-13 15:34:28,547 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'soleiRecitador' 
+2019-02-13 15:34:28,549 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'piano' 
+2019-02-13 15:34:28,549 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'musicoPiano' 
+2019-02-13 15:34:28,575 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'musicoSaxofon' 
+2019-02-13 15:34:28,589 INFO TestConcursoTalentos [main] Inicia el proceso malabaristas 
+2019-02-13 15:34:28,589 INFO TestConcursoTalentos [main] Ejecucion malabarista uno 
+2019-02-13 15:34:28,589 INFO TestConcursoTalentos [main] Ejecucion malabarista dos 
+2019-02-13 15:34:28,590 INFO TestConcursoTalentos [main] Validacion numero de pelotas 
+2019-02-13 15:34:28,590 INFO TestConcursoTalentos [main] Finalizan los malabaristas 
+2019-02-13 15:34:28,590 INFO TestConcursoTalentos [main] Inicia el proceso musicos 
+2019-02-13 15:35:24,310 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 6 bean definitions from class path resource [applicationContext.xml] 
+2019-02-13 15:35:24,339 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-13 15:35:24,375 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'sonetoSorJuana' 
+2019-02-13 15:35:24,376 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'soleiRecitador' 
+2019-02-13 15:35:24,378 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'piano' 
+2019-02-13 15:35:24,378 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'musicoPiano' 
+2019-02-13 15:35:24,399 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'musicoSaxofon' 
+2019-02-13 15:35:24,409 INFO TestConcursoTalentos [main] Inicia el proceso malabaristas 
+2019-02-13 15:35:24,409 INFO TestConcursoTalentos [main] Ejecucion malabarista uno 
+2019-02-13 15:35:24,410 INFO TestConcursoTalentos [main] Ejecucion malabarista dos 
+2019-02-13 15:35:24,410 INFO TestConcursoTalentos [main] Validacion numero de pelotas 
+2019-02-13 15:35:24,410 INFO TestConcursoTalentos [main] Finalizan los malabaristas 
+2019-02-13 15:35:24,410 INFO TestConcursoTalentos [main] Inicia el proceso musicos 

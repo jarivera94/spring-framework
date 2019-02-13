@@ -15,4 +15,19 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 		<constructor-arg value ="100"></constructor-arg>
 		<constructor-arg ref="sonetoSorJuana"></constructor-arg>
 	</bean>
+	
+	<bean id="piano" class="concursantes.Piano">
+	</bean>
+	
+	<bean id="musicoPiano" class="concursantes.Musico">
+		<property name="cancion" value ="Noche de Paz"></property>
+		<property name="instrumento" ref="piano"></property>
+	</bean>
+	
+	<bean id="musicoSaxofon" class="concursantes.Musico">
+		<property name="cancion" value="Simpatia por el diablo"></property>
+		<property name="instrumento">
+			<bean class="concursantes.Saxofon"></bean>
+		</property>
+	</bean>
 </beans>
