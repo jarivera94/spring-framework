@@ -4,3 +4,5 @@
 2019-02-13 12:55:24,038 INFO TestConcursoTalentos [main] Fin de la ejecucion 
 2019-02-13 12:55:52,352 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 1 bean definitions from class path resource [applicationContext.xml] 
 2019-02-13 12:55:52,376 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-13 14:57:55,994 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 1 bean definitions from class path resource [applicationContext.xml] 
+2019-02-13 14:57:56,056 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
