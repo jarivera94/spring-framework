@@ -1,11 +1,19 @@
 package concursantes;
 
-public class Musico implements IConcursante {
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+@Component("musicoPiano")
+public class Musico implements IConcursante {
+	
+	@Value("Noche de Paz")
 	private String cancion;
+	
+	@Autowired
+	@Qualifier("piano")
 	private  IInstrumento instrumento;
-	
-	
 	
 	public Musico(String cancion, IInstrumento iInstrumento) {
 		super();

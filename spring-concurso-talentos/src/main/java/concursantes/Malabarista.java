@@ -1,5 +1,8 @@
 package concursantes;
 
+import org.springframework.stereotype.Component;
+
+@Component("solei")
 public class Malabarista implements IConcursante{
 
 	private int pelotas = 5;

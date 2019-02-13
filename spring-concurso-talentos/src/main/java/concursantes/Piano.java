@@ -1,5 +1,8 @@
 package concursantes;
 
+import org.springframework.stereotype.Component;
+
+@Component("piano")
 public class Piano implements IInstrumento {
 
 	@Override

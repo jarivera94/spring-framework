@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="
-http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-
-	<bean id="solei" class="concursantes.Malabarista">
-		<constructor-arg value="50"></constructor-arg>
-	</bean>
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	
-	<bean id="sonetoSorJuana" class="concursantes.Soneto">
-	</bean>
+	<context:component-scan base-package="concursantes" />
 	
-	<bean id="soleiRecitador" class="concursantes.MalabaristaRecitador">
-		<constructor-arg value ="100"></constructor-arg>
-		<constructor-arg ref="sonetoSorJuana"></constructor-arg>
-	</bean>
+<!-- 	<bean id="solei" class="concursantes.Malabarista"> -->
+<!-- 		<constructor-arg value="50"></constructor-arg> -->
+<!-- 	</bean> -->
 	
-	<bean id="piano" class="concursantes.Piano">
-	</bean>
+<!-- 	<bean id="sonetoSorJuana" class="concursantes.Soneto"> -->
+<!-- 	</bean> -->
 	
-	<bean id="musicoPiano" class="concursantes.Musico">
-		<property name="cancion" value ="Noche de Paz"></property>
-		<property name="instrumento" ref="piano"></property>
-	</bean>
+<!-- 	<bean id="soleiRecitador" class="concursantes.MalabaristaRecitador"> -->
+<!-- 		<constructor-arg value ="100"></constructor-arg> -->
+<!-- 		<constructor-arg ref="sonetoSorJuana"></constructor-arg> -->
+<!-- 	</bean> -->
 	
-	<bean id="musicoSaxofon" class="concursantes.Musico">
-		<property name="cancion" value="Simpatia por el diablo"></property>
-		<property name="instrumento">
-			<bean class="concursantes.Saxofon"></bean>
-		</property>
-	</bean>
+<!-- 	<bean id="piano" class="concursantes.Piano"> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="musicoPiano" class="concursantes.Musico"> -->
+<!-- 		<property name="cancion" value ="Noche de Paz"></property> -->
+<!-- 		<property name="instrumento" ref="piano"></property> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="musicoSaxofon" class="concursantes.Musico"> -->
+<!-- 		<property name="cancion" value="Simpatia por el diablo"></property> -->
+<!-- 		<property name="instrumento"> -->
+<!-- 			<bean class="concursantes.Saxofon"></bean> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
 </beans>
