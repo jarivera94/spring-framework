@@ -29,7 +29,8 @@ public class Malabarista implements IConcursante{
 	@Override
 	public void ejecutar() throws ExecutionException {
 		
-		System.out.println("Malabares "+this.pelotas+ " pelotas");
+		//System.out.println("Malabares "+this.pelotas+ " pelotas");
+		System.out.println("Malabares "+this.pelotas/0+ " pelotas");
 	}
 	
 }

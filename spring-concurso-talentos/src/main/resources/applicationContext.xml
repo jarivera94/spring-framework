@@ -13,10 +13,11 @@
 	<aop:config>
 		<aop:aspect ref="audiencia">
 			<aop:pointcut expression="execution(* concursantes.IConcursante.ejecutar(..))" id="show"/>
-			<aop:before method="sentarse" pointcut-ref="show"/>
-			<aop:before method="apagarCelulares" pointcut-ref="show" />
-			<aop:after-returning method="aplaudir" pointcut-ref="show"/>
-			<aop:after-throwing method="devolucion" pointcut-ref="show"/>
+<!-- 			<aop:before method="sentarse" pointcut-ref="show"/> -->
+<!-- 			<aop:before method="apagarCelulares" pointcut-ref="show" /> -->
+<!-- 			<aop:after-returning method="aplaudir" pointcut-ref="show"/> -->
+<!-- 			<aop:after-throwing method="devolucion" pointcut-ref="show"/> -->
+			<aop:around method="monitorearShow" pointcut-ref="show"/>
 		</aop:aspect>
 	</aop:config>
 	
