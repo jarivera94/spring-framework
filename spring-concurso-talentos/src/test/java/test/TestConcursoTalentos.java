@@ -8,7 +8,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -46,7 +45,7 @@ public class TestConcursoTalentos {
 		musico1= (IConcursante)ctx.getBean("musicoPiano");
 		//musico2= (IConcursante)ctx.getBean("musicoSaxofon");
 	}*/
-	
+
 	@Test
 	public void test() {
 		logger.info("Inicia el proceso malabaristas");
