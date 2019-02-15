@@ -1,9 +1,13 @@
 package concursantes;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
 @Component("audiencia")
+@Aspect
 public class Audiencia {
 
 	public void sentarse() {
@@ -18,10 +22,17 @@ public class Audiencia {
 		System.out.println("Por favor aplaudan ...");
 	}
 	
+	//@AfterThrowing("exec()")
 	public void devolucion() {
 		System.out.println("Devuelvan el dinero ...");
 	}
 	
+	@Pointcut("execution(* concursantes.IConcursante.ejecutar(..))")
+	public void exec() {
+		
+	}
+	
+	@Around("exec()")
 	public void monitorearShow(ProceedingJoinPoint joinPoint) {
 		try {
 			

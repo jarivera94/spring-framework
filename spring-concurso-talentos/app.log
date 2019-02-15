@@ -21,3 +21,105 @@
 2019-02-15 14:05:39,207 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'musicoPiano' 
 2019-02-15 14:05:39,214 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'piano' 
 2019-02-15 14:05:39,216 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'saxofon' 
+2019-02-15 14:13:57,233 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Audiencia.class] 
+2019-02-15 14:13:57,236 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Malabarista.class] 
+2019-02-15 14:13:57,237 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/MalabaristaRecitador.class] 
+2019-02-15 14:13:57,238 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Musico.class] 
+2019-02-15 14:13:57,239 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Piano.class] 
+2019-02-15 14:13:57,239 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Saxofon.class] 
+2019-02-15 14:13:57,239 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Soneto.class] 
+2019-02-15 14:13:57,257 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 13 bean definitions from class path resource [applicationContext.xml] 
+2019-02-15 14:13:57,274 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+2019-02-15 14:13:57,327 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+2019-02-15 14:13:57,329 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+2019-02-15 14:13:57,335 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+2019-02-15 14:13:57,335 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+2019-02-15 14:13:57,338 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+2019-02-15 14:13:57,415 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'audiencia' 
+2019-02-15 14:13:57,421 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-15 14:13:57,438 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'soleiRecitador' 
+2019-02-15 14:13:57,457 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'poema' 
+2019-02-15 14:13:57,458 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Autowiring by type from bean name 'soleiRecitador' via constructor to bean named 'poema' 
+2019-02-15 14:13:57,460 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'musicoPiano' 
+2019-02-15 14:13:57,466 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'piano' 
+2019-02-15 14:13:57,467 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'saxofon' 
+2019-02-15 14:15:03,584 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Audiencia.class] 
+2019-02-15 14:15:03,590 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Malabarista.class] 
+2019-02-15 14:15:03,591 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/MalabaristaRecitador.class] 
+2019-02-15 14:15:03,592 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Musico.class] 
+2019-02-15 14:15:03,593 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Piano.class] 
+2019-02-15 14:15:03,594 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Saxofon.class] 
+2019-02-15 14:15:03,594 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Soneto.class] 
+2019-02-15 14:15:03,616 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 13 bean definitions from class path resource [applicationContext.xml] 
+2019-02-15 14:15:03,635 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+2019-02-15 14:15:03,695 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+2019-02-15 14:15:03,698 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+2019-02-15 14:15:03,701 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+2019-02-15 14:15:03,702 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+2019-02-15 14:15:03,707 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+2019-02-15 14:15:03,794 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'audiencia' 
+2019-02-15 14:15:03,804 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-15 14:15:03,828 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory [main] Found AspectJ method: public void concursantes.Audiencia.monitorearShow(org.aspectj.lang.ProceedingJoinPoint) 
+2019-02-15 14:15:03,980 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'soleiRecitador' 
+2019-02-15 14:15:04,001 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'poema' 
+2019-02-15 14:15:04,007 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Autowiring by type from bean name 'soleiRecitador' via constructor to bean named 'poema' 
+2019-02-15 14:15:04,009 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'musicoPiano' 
+2019-02-15 14:15:04,014 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'piano' 
+2019-02-15 14:15:04,017 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'saxofon' 
+2019-02-15 14:17:12,676 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Audiencia.class] 
+2019-02-15 14:17:12,680 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Malabarista.class] 
+2019-02-15 14:17:12,681 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/MalabaristaRecitador.class] 
+2019-02-15 14:17:12,682 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Musico.class] 
+2019-02-15 14:17:12,682 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Piano.class] 
+2019-02-15 14:17:12,683 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Saxofon.class] 
+2019-02-15 14:17:12,683 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Soneto.class] 
+2019-02-15 14:17:12,700 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 13 bean definitions from class path resource [applicationContext.xml] 
+2019-02-15 14:17:12,714 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+2019-02-15 14:17:12,761 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+2019-02-15 14:17:12,764 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+2019-02-15 14:17:12,766 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+2019-02-15 14:17:12,767 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+2019-02-15 14:17:12,770 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+2019-02-15 14:17:12,835 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'audiencia' 
+2019-02-15 14:17:12,841 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-15 14:17:12,853 WARN o.s.c.s.ClassPathXmlApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'solei' defined in file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Malabarista.class]: BeanPostProcessor before instantiation of bean failed; nested exception is java.lang.IllegalArgumentException: @org.aspectj.lang.annotation.AfterThrowing(throwing=, pointcut=, value=, argNames=) is not a valid AspectJ annotation 
+2019-02-15 14:17:38,673 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Audiencia.class] 
+2019-02-15 14:17:38,676 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Malabarista.class] 
+2019-02-15 14:17:38,677 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/MalabaristaRecitador.class] 
+2019-02-15 14:17:38,678 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Musico.class] 
+2019-02-15 14:17:38,679 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Piano.class] 
+2019-02-15 14:17:38,680 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Saxofon.class] 
+2019-02-15 14:17:38,680 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Soneto.class] 
+2019-02-15 14:17:38,697 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 13 bean definitions from class path resource [applicationContext.xml] 
+2019-02-15 14:17:38,711 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+2019-02-15 14:17:38,760 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+2019-02-15 14:17:38,765 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+2019-02-15 14:17:38,768 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+2019-02-15 14:17:38,768 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+2019-02-15 14:17:38,772 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+2019-02-15 14:17:38,839 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'audiencia' 
+2019-02-15 14:17:38,845 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-15 14:17:38,856 WARN o.s.c.s.ClassPathXmlApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'solei' defined in file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Malabarista.class]: BeanPostProcessor before instantiation of bean failed; nested exception is java.lang.IllegalArgumentException: @org.aspectj.lang.annotation.AfterThrowing(throwing=, pointcut=, value=, argNames=) is not a valid AspectJ annotation 
+2019-02-15 14:18:08,532 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Audiencia.class] 
+2019-02-15 14:18:08,535 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Malabarista.class] 
+2019-02-15 14:18:08,536 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/MalabaristaRecitador.class] 
+2019-02-15 14:18:08,537 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Musico.class] 
+2019-02-15 14:18:08,537 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Piano.class] 
+2019-02-15 14:18:08,537 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Saxofon.class] 
+2019-02-15 14:18:08,538 DEBUG o.s.c.a.ClassPathBeanDefinitionScanner [main] Identified candidate component class: file [/home/jrivera/Documents/spring-framework/spring-concurso-talentos/target/classes/concursantes/Soneto.class] 
+2019-02-15 14:18:08,556 DEBUG o.s.b.f.x.XmlBeanDefinitionReader [main] Loaded 13 bean definitions from class path resource [applicationContext.xml] 
+2019-02-15 14:18:08,572 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' 
+2019-02-15 14:18:08,630 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor' 
+2019-02-15 14:18:08,632 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory' 
+2019-02-15 14:18:08,635 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' 
+2019-02-15 14:18:08,636 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' 
+2019-02-15 14:18:08,639 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' 
+2019-02-15 14:18:08,719 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'audiencia' 
+2019-02-15 14:18:08,728 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'solei' 
+2019-02-15 14:18:08,753 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory [main] Found AspectJ method: public void concursantes.Audiencia.devolucion() 
+2019-02-15 14:18:08,898 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'soleiRecitador' 
+2019-02-15 14:18:08,921 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'poema' 
+2019-02-15 14:18:08,923 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Autowiring by type from bean name 'soleiRecitador' via constructor to bean named 'poema' 
+2019-02-15 14:18:08,927 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'musicoPiano' 
+2019-02-15 14:18:08,934 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'piano' 
+2019-02-15 14:18:08,937 DEBUG o.s.b.f.s.DefaultListableBeanFactory [main] Creating shared instance of singleton bean 'saxofon' 
