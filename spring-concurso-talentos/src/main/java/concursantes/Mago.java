@@ -33,7 +33,4 @@ public class Mago implements IAdivinador {
 	public void setPensamientos(String pensamientos) {
 		this.pensamientos = pensamientos;
 	}
-	
-	
-
 }
